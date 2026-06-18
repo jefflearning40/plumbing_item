@@ -1,9 +1,68 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Test Tailwind{% endblock %}
+{% block title %}GARO | Gestion de commandes et de stock{% endblock %}
 
 {% block body %}
-    <h1 class="text-6xl text-center text-red-500">
-        TEST TAILWIND
+
+<main class="home-page">
+    <section class="hero">
+
+```
+    <p class="hero-badge">
+        Solution métier pour le négoce technique
+    </p>
+
+    <h1 class="hero-title">
+        GARO
     </h1>
+
+    <p class="hero-subtitle">
+        Préparez vos commandes, maîtrisez vos stocks et optimisez vos approvisionnements depuis une seule plateforme.
+    </p>
+
+    <div class="hero-actions">
+        <a href="#" class="hero-button hero-button-primary">
+            Découvrir GARO
+        </a>
+
+        <a href="#" class="hero-button hero-button-secondary">
+            Fonctionnalités
+        </a>
+    </div>
+
+    <div class="hero-features">
+
+        <article class="feature-card">
+            <h2>Préparation des commandes</h2>
+
+            <p>
+                Constituez rapidement une commande client à partir du catalogue
+                et visualisez immédiatement les disponibilités en stock.
+            </p>
+        </article>
+
+        <article class="feature-card">
+            <h2>Gestion des stocks</h2>
+
+            <p>
+                Suivez les quantités disponibles, les mouvements d'articles
+                et les références nécessitant un réapprovisionnement.
+            </p>
+        </article>
+
+        <article class="feature-card">
+            <h2>Approvisionnement</h2>
+
+            <p>
+                Pilotez les fournisseurs, anticipez les besoins et limitez
+                les ruptures grâce à une vision centralisée des stocks.
+            </p>
+        </article>
+
+    </div>
+
+</section>
+```
+
+</main>
 {% endblock %}

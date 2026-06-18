@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <title>{% block title %}Plumbing Item{% endblock %}</title>
 
-    {% block stylesheets %}
+    {% block stylesheets %}{% endblock %}
+
+    {% block importmap %}
         {{ importmap('app') }}
     {% endblock %}
 </head>

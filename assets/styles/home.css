@@ -1,0 +1,70 @@
+.home-page {
+    @apply min-h-screen text-white flex items-center justify-center px-6 py-12;
+
+    background-image:
+        linear-gradient(
+            rgba(16, 42, 67, 0.80),
+            rgba(16, 42, 67, 0.80)
+        ),
+        url('../images/background.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero {
+    @apply max-w-6xl text-center;
+}
+
+.hero-badge {
+    @apply inline-block mb-6 rounded-full bg-secondary px-5 py-2 text-sm font-bold uppercase tracking-wider;
+}
+
+.hero-title {
+    @apply text-7xl font-bold mb-6 text-white;
+
+    text-shadow:
+        3px 3px 0px #1F3A5F,
+        6px 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.hero-subtitle {
+    @apply mx-auto mb-10 max-w-3xl text-2xl leading-relaxed text-light;
+}
+
+.hero-actions {
+    @apply mb-14 flex flex-wrap justify-center gap-4;
+}
+
+.hero-button {
+    @apply inline-block rounded-xl px-7 py-4 text-lg font-bold no-underline transition;
+}
+
+.hero-button-primary {
+    @apply bg-secondary text-white;
+}
+
+.hero-button-secondary {
+    @apply bg-white text-secondary;
+}
+
+.hero-button:hover {
+    @apply -translate-y-1 opacity-90;
+}
+
+.hero-features {
+    @apply grid gap-6 md:grid-cols-3;
+}
+
+.feature-card {
+    @apply rounded-2xl bg-white/20 p-6 text-left backdrop-blur-sm;
+}
+
+.feature-card h2 {
+    @apply mb-3 text-2xl font-bold text-white;
+}
+
+.feature-card p {
+    @apply text-light leading-relaxed;
+}
